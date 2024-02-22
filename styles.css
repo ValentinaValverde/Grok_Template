@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+  color: #f5f5f5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  padding: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .button {
+    background-color: black;
+    border: solid #f5f5f5 3px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    color: #f5f5f5;
+
+    transition: 0.5s;
+  }
+
+  .button:hover {
+    background-color: #f5f5f5;
+    border: solid #f5f5f5 3px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    color: black;
+    cursor: pointer;
+  }
+}
+
+.splash_page {
+  width: 100%;
+  height: 105vh;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+
+  .div {
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .a {
+    text-align: left;
+  }
+
+  /* need some assistance in making it huge */
+  .b {
+    border: solid #f5f5f5 5px;
+    text-align: center;
+    font-size: 40vw;
+    overflow: hidden;
+    /* width: 110vw; */
+    /* margin: -50px 0px -50px -50px; */
+  }
+
+  .c {
+    text-align: right;
+  }
+}
