@@ -55,7 +55,7 @@ body {
 
   /* need some assistance in making it huge */
   .b {
-    border: solid #f5f5f5 5px;
+    border: solid pink 5px;
     text-align: center;
     font-size: 40vw;
     overflow: hidden;
@@ -65,5 +65,17 @@ body {
 
   .c {
     text-align: right;
+  }
+}
+
+.about {
+  /* background-color: gray; */
+  padding: 30px;
+  padding-left: 50px;
+  width: 50%;
+
+  h2 {
+    font-size: 50px;
+    /* background-color: pink; */
   }
 }
